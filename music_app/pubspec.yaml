@@ -1,0 +1,78 @@
+name: music_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_vector_icons: ^2.0.0
+  curved_navigation_bar: ^1.0.6
+  font_awesome_flutter: ^10.7.0
+  shared_preferences: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Specify the assets section to include image assets
+  assets:
+    - assets/images/podcasts/ted_talks_daily.png
+    - assets/images/voice_wave.png
+    - assets/images/podcasts/bad_friends.png
+    - assets/images/podcasts/global_news_podcast.png
+    - assets/images/podcasts/lovely_english_stories.png
+    - assets/images/podcasts/prof_g_markets.png
+    - assets/images/podcasts/ted_talks_daily.png
+    - assets/images/podcasts/the_eating_me_podcast.png
+    - assets/images/podcasts/the_mindset_advantage.png
+    - assets/images/categories/comedy.png
+    - assets/images/categories/history.png
+    - assets/images/categories/language.png
+    - assets/images/categories/trends.png
+    - assets/images/categories/documentary.png
+    - assets/images/categories/education.png
+    - assets/images/Persons/ahmet.png
+    - assets/images/Persons/ali.png
+    - assets/images/Persons/elif.png
+    - assets/images/Persons/mehmet.png
+    - assets/images/Persons/zeynep.png
+    - assets/images/Persons/me.png
+    - assets/images/Avatars/cat.png
+    - assets/images/Avatars/dog.png
+    - assets/images/Avatars/dragon.png
+    - assets/images/Avatars/giraffe.png
+    - assets/images/Avatars/gorilla.png
+    - assets/images/Avatars/panda.png
+    - assets/images/Avatars/bear.png
+    - assets/images/Avatars/shark.png
+    - assets/images/Avatars/snake.png
+    - assets/images/Avatars/unicorn.png
+    - assets/images/Avatars/walrus.png
+    - assets/images/Avatars/monkey.png
+    - assets/images/Avatars/choose.png
+    - assets/images/podcast.png
+
+    # Add more assets here if needed
+
+  # To add custom fonts to your application, use the fonts section
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
